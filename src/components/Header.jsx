@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
-      <nav className="green darken-1">
+      <nav className=" #4527a0 deep-purple darken-3">
           <div className="nav-wrapper">
-              <a href="#" className="brand-logo">CookBook</a>
+              <Link to="/" className="brand-logo">CookBook</Link>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
-                  <li><a href="https://github.com/IlyaPetrovM/cookbook" target="_blank" rel="noreferrer" >Исходный код</a></li>
+                  <li><Link to="/contacts"  rel="noreferrer" >Contacts</Link></li>
+                  <li><Link to="/about"  rel="noreferrer" >About</Link></li>
               </ul>
           </div>
       </nav>
