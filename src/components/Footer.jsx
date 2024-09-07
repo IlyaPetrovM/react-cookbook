@@ -6,7 +6,7 @@ export default function Footer() {
                   © {new Date().getFullYear()} Copyright by Ilya Petrov 
               </div>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
-                  <li><a href="https://github.com/IlyaPetrovM/cookbook" target="_blank" rel="noreferrer" >Исходный код</a></li>
+                  {/* <li><a href="https://github.com/IlyaPetrovM/cookbook" target="_blank" rel="noreferrer" >Исходный код</a></li> */}
               </ul>
           </div>
       </footer>

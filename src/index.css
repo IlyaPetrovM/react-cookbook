@@ -12,7 +12,11 @@ code {
     monospace;
 }
 
-
+.brand-logo{
+  margin-left: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+}
 
 .content {
   min-height: calc(100vh - 70px - 64px);

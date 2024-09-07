@@ -6,8 +6,9 @@ export default function Header() {
           <div className="nav-wrapper">
               <Link to="/" className="brand-logo">CookBook</Link>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
-                  <li><Link to="/contacts"  rel="noreferrer" >Contacts</Link></li>
-                  <li><Link to="/about"  rel="noreferrer" >About</Link></li>
+              <li><a href="https://github.com/IlyaPetrovM/react-cookbook" target="_blank" rel="noreferrer" >Source code</a></li>
+                  {/* <li><Link to="/contacts"  rel="noreferrer" >Contacts</Link></li>
+                  <li><Link to="/about"  rel="noreferrer" >About</Link></li> */}
               </ul>
           </div>
       </nav>
