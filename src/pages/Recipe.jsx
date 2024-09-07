@@ -66,7 +66,7 @@ const Recipe = () => {
         </div>
       )}
       <button
-        className='btn'
+        className='btn orange'
         onClick={() => {
           navigate(-1);
         }}
