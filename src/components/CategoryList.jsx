@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import { CategoryItem } from "./CategoryItem";
 
 function CategoryList(props){
